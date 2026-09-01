@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorPickerView">
+        <attr name="cpv_alphaEnabled" format="boolean" />
+        <attr name="cpv_hueBarHeight" format="dimension" />
+        <attr name="cpv_svPanelHeight" format="dimension" />
+        <attr name="cpv_alphaBarHeight" format="dimension" />
+        <attr name="cpv_indicatorColor" format="color" />
+        <attr name="cpv_indicatorThickness" format="dimension" />
+        <attr name="cpv_defaultColor" format="color" />
+    </declare-styleable>
+</resources>
