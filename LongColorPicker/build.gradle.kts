@@ -45,6 +45,15 @@ android {
         consumerProguardFiles("consumer-rules.pro")
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("/Users/longtianxiang/Code/其他/Android Signature/FINAL_RELEASE_KEY_STORE.jks")
+            storePassword = "19990619"
+            keyAlias = "LONG"
+            keyPassword = "19990619"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
